@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Click Counter</title>
+</head>
+<body style="text-align:center; font-family:Arial;">
+
+<h2>Click Counter</h2>
+<p>Clicks: <span id="count">0</span></p>
+
+<button onclick="clickGame()">Click</button>
+
+<script>
+let count = 0;
+function clickGame() {
+  count++;
+  document.getElementById("count").textContent = count;
+}
+</script>
+
+</body>
+</html>
